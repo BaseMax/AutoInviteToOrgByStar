@@ -1,3 +1,7 @@
+# Max Base
+# 2021-06-19
+# https://github.com/BaseMax/AutoInviteToOrgByStar
+
 import os
 import sys
 import json

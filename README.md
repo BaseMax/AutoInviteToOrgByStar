@@ -12,7 +12,7 @@ A GitHub action script to automatically invite everyone to your organization who
 
 Open https://github.com/settings/tokens and create one.
 
-#####Create `COMMUNITY_TEAM_ID` variable at Secrets
+##### Create `COMMUNITY_TEAM_ID` variable at Secrets
 
 Do not have team id at your org?
 

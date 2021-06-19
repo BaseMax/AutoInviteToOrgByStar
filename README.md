@@ -4,7 +4,7 @@ A GitHub action script to automatically invite everyone to your organization who
 
 ## What is this?
 
-### You can STAR this repository, After that, you will invite to a surprise and fantastic organization.
+### You can FORK and STAR this repository, After that, you will invite to a surprise and fantastic organization.
 
 ## Deploy
 

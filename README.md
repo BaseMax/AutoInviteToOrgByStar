@@ -12,6 +12,8 @@ A GitHub Action script to automatically invite everyone to your organization tha
 
 Open https://github.com/settings/tokens and create one.
 
+After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.
+
 #### Create `COMMUNITY_TEAM_ID` variable at Secrets
 
 After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.

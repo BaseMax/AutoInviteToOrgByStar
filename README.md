@@ -14,6 +14,8 @@ Open https://github.com/settings/tokens and create one.
 
 #### Create `COMMUNITY_TEAM_ID` variable at Secrets
 
+After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.
+
 Do not have team id at your org?
 
 Running:
@@ -24,6 +26,7 @@ curl -H "Authorization: token *****" https://api.github.com/orgs/YOUR_ORG_NAME/t
 
 p.s: Put your personal token at the `****`, and replace your organization name at `YOUR_ORG_NAME`.
 
+After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.
 
 #### Create `.github/workflows/invite-by-star.yml` file:
 

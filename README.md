@@ -16,8 +16,6 @@ After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/set
 
 #### Create `COMMUNITY_TEAM_ID` variable at Secrets
 
-After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.
-
 Do not have team id at your org?
 
 Running:

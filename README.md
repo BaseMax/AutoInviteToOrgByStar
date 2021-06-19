@@ -6,13 +6,13 @@ A GitHub action script to automatically invite everyone to your organization who
 
 ### You can FORK and STAR this repository, After that, you will invite to a surprise and fantastic organization.
 
-## Deploy
+## Deploy on your organization
 
-#### Create `MY_GITHUB_KEY` variable at Secrets
+### Create `MY_GITHUB_KEY` variable at Secrets
 
 Open https://github.com/settings/tokens and create one.
 
-#### Create `COMMUNITY_TEAM_ID` variable at Secrets
+### Create `COMMUNITY_TEAM_ID` variable at Secrets
 
 Do not have team id at your org?
 
@@ -24,7 +24,7 @@ curl -H "Authorization: token *****" https://api.github.com/orgs/YOUR_ORG_NAME/t
 p.s: Put your personal token at the `****`, and replace your org name at the `YOUR_ORG_NAME`.
 
 
-#### Create `.github/workflows/invite-by-star.yml` file:
+### Create `.github/workflows/invite-by-star.yml` file:
 
 ```yaml
 on:

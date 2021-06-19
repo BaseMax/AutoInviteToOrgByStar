@@ -4,7 +4,7 @@ A GitHub Action script to automatically invite everyone to your organization tha
 
 ## What is this?
 
-### You can STAR this repository, after that you will be invited to a surprising and fantastic organization.
+### You can FORK and STAR this repository, after that you will be invited to a surprising and fantastic organization.
 
 ## Deploy
 
@@ -53,13 +53,13 @@ jobs:
             if [ -f ./.github/workflows/requirements.txt ]; then pip install -r requirements.txt; fi
         - name: execute py script
           run: |
-            python ./.github/workflows/run.py
+            python ./.github/workflows/AutoInviteToOrgByStar.py
           env:
             MY_GITHUB_KEY: ${{ secrets.MY_GITHUB_KEY }}
             COMMUNITY_TEAM_ID: ${{ secrets.COMMUNITY_TEAM_ID }}
 ```
 
-### Create `.github/workflows/run.py` file
+### Create `.github/workflows/AutoInviteToOrgByStar.py` file
 
 ```
 # Max Base

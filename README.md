@@ -6,7 +6,7 @@ A GitHub Action script to automatically invite everyone to your organization tha
 
 ### You can FORK and STAR this repository, after that you will be invited to a surprising and fantastic organization.
 
-## Deploy
+## Deploy to your organization
 
 #### Create `MY_GITHUB_KEY` variable at Secrets
 

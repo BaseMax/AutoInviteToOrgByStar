@@ -96,3 +96,5 @@ headers = {
 response = requests.request("PUT", url, headers=headers, data=payload)
 print(response.text)
 ```
+
+© Copyright Max Base, 2021

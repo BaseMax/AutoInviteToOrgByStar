@@ -12,6 +12,8 @@ A GitHub action script to automatically invite everyone to your organization who
 
 Open https://github.com/settings/tokens and create one.
 
+After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.
+
 ##### Create `COMMUNITY_TEAM_ID` variable at Secrets
 
 Do not have team id at your org?
@@ -23,6 +25,7 @@ curl -H "Authorization: token *****" https://api.github.com/orgs/YOUR_ORG_NAME/t
 ```
 p.s: Put your personal token at the `****`, and replace your org name at the `YOUR_ORG_NAME`.
 
+After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.
 
 ##### Create `.github/workflows/invite-by-star.yml` file:
 

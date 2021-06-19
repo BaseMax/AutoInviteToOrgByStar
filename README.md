@@ -1,5 +1,7 @@
 # Auto Invite To Orginization By Star
 
+A GitHub action script to automatically invite everyone to your organization who star your repository. 
+ 
 ## Deploy
 
 #### Create `MY_GITHUB_KEY` variable at Secrets

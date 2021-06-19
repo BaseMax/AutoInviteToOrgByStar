@@ -1,18 +1,18 @@
-# Auto Invite To Orginization By Star
+# Auto Invite To The Organization By Star
 
-A GitHub action script to automatically invite everyone to your organization who star your repository. 
+A GitHub Action script to automatically invite everyone to your organization that `stars` your repository. 
 
 ## What is this?
 
-### You can FORK and STAR this repository, After that, you will invite to a surprise and fantastic organization.
+### You can STAR this repository, after that you will be invited to a surprising and fantastic organization.
 
-## Deploy on your organization
+## Deploy
 
-##### Create `MY_GITHUB_KEY` variable at Secrets
+#### Create `MY_GITHUB_KEY` variable at Secrets
 
 Open https://github.com/settings/tokens and create one.
 
-##### Create `COMMUNITY_TEAM_ID` variable at Secrets
+#### Create `COMMUNITY_TEAM_ID` variable at Secrets
 
 Do not have team id at your org?
 
@@ -21,10 +21,11 @@ Running:
 ```
 curl -H "Authorization: token *****" https://api.github.com/orgs/YOUR_ORG_NAME/teams
 ```
-p.s: Put your personal token at the `****`, and replace your org name at the `YOUR_ORG_NAME`.
+
+p.s: Put your personal token at the `****`, and replace your organization name at `YOUR_ORG_NAME`.
 
 
-##### Create `.github/workflows/invite-by-star.yml` file:
+#### Create `.github/workflows/invite-by-star.yml` file:
 
 ```yaml
 on:
@@ -55,7 +56,7 @@ jobs:
             COMMUNITY_TEAM_ID: ${{ secrets.COMMUNITY_TEAM_ID }}
 ```
 
-##### Create `.github/workflows/run.py` file
+### Create `.github/workflows/run.py` file
 
 ```
 # Max Base

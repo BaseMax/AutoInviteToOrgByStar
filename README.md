@@ -63,7 +63,7 @@ jobs:
 
 ### Create `.github/workflows/AutoInviteToOrgByStar.py` file
 
-```
+```python
 # Max Base
 # 2021-06-19
 # https://github.com/BaseMax/AutoInviteToOrgByStar

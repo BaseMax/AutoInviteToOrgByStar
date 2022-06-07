@@ -20,7 +20,9 @@ After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/set
 
 Do not have team id at your org?
 
-Running:
+first create team at `https://github.com/orgs/YOUR_ORG_NAME/teams`
+
+and Running:
 
 ```
 curl -H "Authorization: token *****" https://api.github.com/orgs/YOUR_ORG_NAME/teams
@@ -28,7 +30,7 @@ curl -H "Authorization: token *****" https://api.github.com/orgs/YOUR_ORG_NAME/t
 
 p.s: Put your personal token at the `****`, and replace your organization name at `YOUR_ORG_NAME`.
 
-After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions`.
+After that you can create a secret at `https://github.com/ORG_NAME/REPO_NAME/settings/secrets/actions` and put api number as value.
 
 #### Create `.github/workflows/invite-by-star.yml` file:
 
